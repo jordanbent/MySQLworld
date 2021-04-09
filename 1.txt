@@ -6,11 +6,8 @@ ANS = 274
 
 2. Find out what the population and average life expectancy for people in Argentina (ARG) is. 
 
-SELECT population FROM country WHERE name='Argentina';
+SELECT Population, LifeExpectancy FROM country WHERE Name='Argentina' ;
 ANS =  37032000
-
-
-SELECT AVG(LifeExpectancy) FROM country WHERE name='Argentina';
 ANS = 75.1
 
 
